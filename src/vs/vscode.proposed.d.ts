@@ -1431,4 +1431,12 @@ declare module 'vscode' {
 	}
 
 	//#endregion
+
+	//#region Diagnostic links https://github.com/microsoft/vscode/issues/11847
+
+	export interface Diagnostic {
+		referenceLink: Uri;
+	}
+
+	//#endregion
 }
